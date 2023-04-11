@@ -1,9 +1,12 @@
 import {
-    starbucks,
-    tesla,
-    carrent,
-    jobit,
-    tripguide,
+    wav,
+    skatedb,
+    portfolio,
+    server,
+    twt,
+    aid,
+    mandel,
+    close,
   } from "../assets";
   
   export const navLinks = [
@@ -26,7 +29,7 @@ import {
     {
       title: "Python and Algebra Tutor",
       company_name: "Mayor's Youth Summer Program",
-      icon: starbucks,
+      // icon: close,
       iconBg: "#383E56",
       date: "July 2018 - August 2018",
       points: [
@@ -38,7 +41,7 @@ import {
     {
       title: "Embedded Software Intern",
       company_name: "Novatio Engineering",
-      icon: tesla,
+      // icon: close,
       iconBg: "#E6DEDD",
       date: "July 2022 - August 2022",
       points: [
@@ -56,7 +59,7 @@ import {
         "Audio signal processing and manipulation command line interface in C++, primarily for music and sound art production. Capable of a myriad of audio effects/filters. Still in development.",
       tags: [
       ],
-      image: carrent,
+      image: wav,
       source_code_link: "https://github.com/y4umeng/4rer",
     },
     {
@@ -65,8 +68,8 @@ import {
         "Web application created with Flask and PostgreSQL that enables users to browse and post skate tricks and skate spots.",
       tags: [
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: skatedb,
+      source_code_link: "https://github.com/y4umeng/skatedbpub",
     },
     {
       name: "Portfolio Website",
@@ -74,8 +77,8 @@ import {
         "The website you're currently looking at. Created using React.js, React Three Fiber, TailwindCSS, and Framer Motion.",
       tags: [
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: portfolio,
+      source_code_link: "https://github.com/y4umeng/portfolio",
     },
     {
       name: "Multi-Process Server in C",
@@ -83,8 +86,8 @@ import {
         "Final project for Advanced Programming in C. Serves HTML files to multiple HTTP clients simultaneously over socket connection with multi-threading.",
       tags: [
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: server,
+      source_code_link: "https://gist.github.com/y4umeng/0a58ea5d0a9a387b88fa3402cd4ce92f",
     },
     {
       name: "Twitter Bot",
@@ -92,7 +95,7 @@ import {
         "Automated Twitter account that web scrapes a Substack blog and recursively parses a random string to tweet. Gained 200+ followers by itself.",
       tags: [
       ],
-      image: tripguide,
+      image: twt,
       source_code_link: "https://github.com/y4umeng/angel-bot",
     },
     {
@@ -101,7 +104,7 @@ import {
       "A web app strictly for students and faculty of Columbia University to request monetary aid/crowdfund from the community for any personal or community purpose. Still in the development stage.",
       tags: [
       ],
-      image: tripguide,
+      image: aid,
       source_code_link: "https://devpost.com/software/columbia-mutual-aid",
     },
     {
@@ -110,7 +113,7 @@ import {
         "Java program that renders Mandelbrot set up to 1000x magnification with algorithmic coloring",
       tags: [
       ],
-      image: tripguide,
+      image: mandel,
       source_code_link: "https://github.com/y4umeng/javandel",
     },
   ];

@@ -2,20 +2,23 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import wav from "./wav.jpg"
+import skatedb from "./skatedb.png"
+import portfolio from "./portfolio.png"
+import server from "./server.png"
+import twt from "./twt.png"
+import aid from "./aid.png"
+import mandel from "./mandel.png"
 
 export {
   github,
   menu,
   close,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  wav,
+  skatedb,
+  portfolio,
+  server,
+  twt,
+  aid,
+  mandel,
 };
